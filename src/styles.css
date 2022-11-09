@@ -1,7 +1,96 @@
-h1 {
+body {
     font-family: "Poppins", sans-serif;
     font-style: normal;
+    background-color: rgb(32,32,64);
+
+}
+.container {
+    max-width: 1000px;
+    margin: 10px auto;
+
+}
+header {
+    background-image: linear-gradient(rgba(0,0,128,0.4),rgba(0,0,128,0.4)),url("../images/WolfHero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    text-align: center;
+    color: whitesmoke;
+    padding: 150px 0;
+}
+
+header h1 {
     font-weight: 700;
     font-size: 96px;
-    line-height: 144px;
+    line-height: 1;
+    margin: 30px 0 30px;
+    margin: 0;
 }
+
+header h2 {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 40px;
+    margin: 0;
+}
+
+header h3 {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 28px;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+
+
+
+
+ footer {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+ }
+
+ header a {
+    display: inline-block;
+    background-color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(32,32,64);
+    padding: 16px 32px;
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 32px;
+    transition: all 150ms ease-in-out;
+ }
+
+ header a:hover {
+    font-weight: 560;
+    background-color: lightgrey;
+ }
+
+ @media (max-width: 900px) {
+    header {
+        padding: 60px 0;
+    }
+    header h1 {
+        font-size: 48px;
+    }
+    header h2 {
+       font-size: 20px; 
+    }
+
+    header h3 {
+        font-size: 14px;
+    }
+    
+    header a {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+ }
+
