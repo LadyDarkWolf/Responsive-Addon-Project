@@ -50,6 +50,10 @@ header h3 {
     margin: 0 auto;
     text-align: center;
     font-size: 14px;
+    color: white;
+ }
+ footer a {
+    color: grey;
  }
 
  header a {
